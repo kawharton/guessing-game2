@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>   
+    <head>
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+    </head>   
+    <body>
+        <div id="top">
+          <h1 class="vert-center">Guessing Game</h1>
+            </div>
+                <div class="content">
+                  <div class="layer">
+                    <div class="main vert-center">
+                      <form id="guess-form">
+                        <input type="text" name="guess" id="number-input" maxlength="3" placeholder="Enter a number from 1-100" />
+                        <br>
+                        <input class="button" type="submit" value="Submit" id="submit-button">
+                      </form>               
+                      <div class="guesses-left">
+                        <p class="vert-center">Guesses Remaining: <span id="num-guesses" class="bold">5</span>
+                        </p>
+                      </div>
+                      <div id="feedback">
+                  <div><ul id="guess-list"></ul></div>
+                  <button class="button" type="button" id="new-game">Play Again</button>
+                  <button class="button" type="button" id="hint">Hint</button>
+                  </div>               
+              </div>
+            </div>
+        </div>
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

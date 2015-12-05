@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+body {
+    background: black;
+}
+.guesses-left {
+    height: 70px;
+    margin: 10px auto;
+    width: 350px;
+    color:#FFFFFF;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.content {
+    background-image: url("meditation.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
+h1 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: black;
+}
+
+#top {  
+    max-width: 1200px;
+    height: 75px;
+    background: -webkit-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -moz-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -ms-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -o-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    text-align: left;
+    margin: 0 auto;
+}
+
+.vert-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+p {
+    font-size: 1.75em;
+}
+.layer {
+    position: absolute;
+    top: 100;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1.5em #111;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#number-input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+#submit-button {
+    width: 100px;
+    margin-bottom: 25px;
+    color: black;
+}
+#new-game, #hint {
+    margin-top: 50px;
+    width: 125px;
+}
+#new-game {
+    right: 360px;
+}
+
+.button {
+    background: -webkit-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -moz-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -ms-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    background: -o-linear-gradient(top, #f5f6f6, #dbdce2, #b8bac6, #dddfe3);
+    padding: 10px 20px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    color: black;
+    font-size: 16px;
+    font-family: Lato, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:active {
+    background: #1b435e;
+}
+
+.bold {
+    font-weight: bold;
+}
+#guess-list {
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+#guess-list li {
+    display: inline-block;
+    margin: 10px 5px 0;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    border-radius: 100%;
+    box-shadow: inset 0 0 40px #FFF;
+}
+
+#feedback {
+    margin: 50px 0 10px;
+    font-size: 1.5em;
+    
+}
